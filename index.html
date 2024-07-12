@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Estilos -->
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- Fonts de texto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+        
+        <title>Alura Geek</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="header__logo">
+                <img src="assets/hearts.svg.png" alt="3 corazones en pixeles">
+                <h2>AluraGeek</h2>
+            </div>
+            <h4 class="header__warning">COMERCIO ELECTRÓNICO FICTICIO, ¡AÑADE O ELIMINA PRODUCTOS A VOLUNTAD!</h4>
+        </header>
+        <!-- Main -->
+        <main>
+            <!-- Seccion de card  productos -->
+            <section class="product">
+                <h2 class="product__title">MENU PRODUCTOS:</h2>
+                <div class="product__box" alt="produtos" data-products>
+   
+                </div>
+            </section>
+            <!-- Seccion de formulário para agregar productos -->
+            <section class="addproduct">
+                <h2 class="addproduct__title">Agregar Productos:</h2>
+                <form class="addproduct__form" action="" method="post" data-form>
+                    <input class="addproduct__input" type="text" name="name" placeholder="nombre..." required data-form-name>
+                    <input class="addproduct__input" type="number" step="0.01" pattern="\d+(\.\d{2})?" name="price" placeholder="valor..." required data-form-price>
+                    <input class="addproduct__input" type="url" name="img" placeholder="url de la imagem..." required data-form-image>
+                    <div class="addproduct__btn__box">
+                        <input class="addproduct__btn submit__btn" type="submit" value="Guardar" disabled>
+                        <input class="addproduct__btn clear__btn" type="button" value="Limpiar" data-form-clear>
+                    </div>
+                </form>
+                <h5 class="message" id="messageError"></h5>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer__logo">
+                <img src="assets/hearts.svg.png" alt="3 corazones en pixeles">
+                <h2>AluraGeek</h2>
+            </div>
+            <p class="footer__dev">Desarrollado por Charlie Web</p>
+            <p class="footer__alura">ALURA LATAM - 2024</p>
+        </footer>
+
+        <!-- Scripts -->
+        <script type="module" src="./js/showProducts.js"></script>
+        <script type="module" src="./js/createProduct.js"></script>
+        <script type="module" src="./js/clearForm.js"></script>
+        <script type="module" src="./js/deleteProduct.js"></script>
+        <script type="module" src="./js/validate.js"></script>
+    </body>
+</html>

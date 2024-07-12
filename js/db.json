@@ -1,0 +1,57 @@
+{
+    "productos": [
+        { "id": "1",
+        "nome": "Link Zonai - ToK",
+        "valor": "350",
+        "imagem": "https://www.zbrushcentral.com/uploads/default/original/4X/f/5/9/f59c90f247d5170c1d2538a48628969f06456a26.jpeg"},
+        
+        {
+            "id": "2",
+            "nome": "Zelda Zonai - ToK",
+            "valor": "400",
+            "imagem": "https://cdna.artstation.com/p/assets/images/images/069/437/448/large/kris-yiu-psd-zelda-f02v3.jpg?1700131369"
+          },
+          {
+            "id": "3",
+            "nome": "Link em Ação",
+            "valor": "200",
+            "imagem": "https://cdn.ecommercedns.uk/files/6/227646/3/40888083/link-6-web.jpg"
+          },
+          {
+            "id": "4",
+            "nome": "Zelda em Ação",
+            "valor": "200",
+            "imagem": "https://img.staticdj.com/56a6b00776c824833d57561fbe2589a0_1080x.jpg"
+          },
+          {
+            "id": "5",
+            "nome": "Link ToK",
+            "valor": "400",
+            "imagem": "https://www.gkcollectors.com/cdn/shop/files/1_d590f180-295f-4241-8775-aa31d1f97afd.jpg?v=1688359297&width=1100"
+          },
+          {
+            "id": "6",
+            "nome": "Zelda ToK",
+            "valor": "500",
+            "imagem": "https://static.wixstatic.com/media/f79857_b44dff1ffdf5477dacca21d4f43a290b~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+          },
+          {
+            "id": "7",
+            "nome": "Korok",
+            "valor": "100",
+            "imagem": "https://m.media-amazon.com/images/I/71AwRziLKjL._AC_UF1000,1000_QL80_.jpg"
+          },
+          {
+            "id": "8",
+            "nome": "Purah ToK",
+            "valor": "400",
+            "imagem": "https://static.wixstatic.com/media/f79857_9ae0d21fed4f4ee2b1d26d7d69ff9e4b~mv2.jpg/v1/fill/w_560,h_736,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f79857_9ae0d21fed4f4ee2b1d26d7d69ff9e4b~mv2.jpg"
+          },
+          {
+            "id": "9",
+            "nome": "Link Ultrahand",
+            "valor": "500",
+            "imagem": "https://images.nintendolife.com/7db641deb33ab/the-legend-of-zelda-tears-of-the-kingdom.large.jpg"
+          }
+    ]
+}
